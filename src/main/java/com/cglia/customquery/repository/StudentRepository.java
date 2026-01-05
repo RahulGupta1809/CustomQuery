@@ -35,5 +35,4 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
 
 	@Query("SELECT s FROM Student s WHERE s.firstName LIKE %?1")
 	List<Student> findByFirstnameEndingWith(String firstName);
-
 }
