@@ -93,5 +93,4 @@ public class StudentController {
 	public List<Student> findByFirstnameEndingWith(@RequestParam String firstName) {
 		return studentService.findByFirstnameEndingWith(firstName);
 	}
-
 }
