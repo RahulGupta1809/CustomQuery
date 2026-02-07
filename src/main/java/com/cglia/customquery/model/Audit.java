@@ -11,7 +11,7 @@ import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
-
+//Audit Class
 
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
@@ -43,3 +43,4 @@ private Date updatedAt;
 	
 	
 }
+
