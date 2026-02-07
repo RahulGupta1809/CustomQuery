@@ -1,8 +1,4 @@
 package com.cglia.customquery.model;
-
-
-
-
 import java.sql.Date;
 
 import jakarta.persistence.Entity;
@@ -10,6 +6,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+// Student Class
+
 @Entity
 @Table(name="student")
 public class Student extends Audit{
@@ -88,3 +86,4 @@ public class Student extends Audit{
       
       
 }
+
