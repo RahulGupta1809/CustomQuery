@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.cglia.customquery.model.Student;
 import com.cglia.customquery.service.StudentService;
-
+//Student Controller
 @RestController
 @RequestMapping("/api")
 public class StudentController {
